@@ -3,7 +3,7 @@ import os
 import yaml
 import flask
 
-app = flask.Flask(__name__)
+APP = flask.Flask(__name__)
 
 
 @app.route("/")
